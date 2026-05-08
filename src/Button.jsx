@@ -6,7 +6,7 @@ function Button(){
 	return (
 		<button type = "button" onClick={handleClick}>
 			<i>icon</i>
-			<span>クリック君1</span>
+			<span>クリック君12</span>
 		</button>
 	)	
 }
