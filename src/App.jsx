@@ -1,14 +1,22 @@
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
-import Button from './Button.jsx'
+import Home from './pages/Home';
+import SamplePage from './pages/SamplePage';
+
+
 
 function App() {
- {/* ここにコードを書く  */}
-  return (
+ return(
   <>
-    <h1>Hello World</h1>
-    <Button/>
+  <BrowserRouter basename="/ReactSample2">
+   <Routes>
+     <Route path = '/' element ={<Home />} />
+     <Route path = '/sample-page' element ={<SamplePage />} />
+   </Routes>
+   </BrowserRouter>
   </>
-  )
+ )
 }
 
-export default App
+export default App;
