@@ -6,7 +6,7 @@ function Button(){
 	return (
 		<button type = "button" onClick={handleClick}>
 			<i>icon</i>
-			<span>ク</span>
+			<span>クaaa</span>
 		</button>
 	)	
 }
