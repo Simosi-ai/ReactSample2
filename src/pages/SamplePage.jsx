@@ -1,7 +1,7 @@
 function SamplePage(){
     return (
         <>
-        <h1>SamplePage</h1>
+        <h1>This is a SamplePage</h1>
         </>
     )
 }
