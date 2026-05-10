@@ -5,7 +5,7 @@ function Display(props){
 
     useEffect(() => {
     setTimeout(() => {
-        setText(`カウント: ${props.count}`)
+        setText("complete!")
      }, 2000);
 
         
